@@ -6,7 +6,7 @@ import os
 Author: Manas Taunk
 Args:
     namespace: namespace of deployment
-    microservices: microservice names provided as comma seperated (Ex: worker,notification,cache)
+    microservices: microservice names provided as comma seperated (Ex: microservice1,microservice2,microservice3)
     timeout: duration(in seconds) for which logs has to be collected.
 
 Command: 
