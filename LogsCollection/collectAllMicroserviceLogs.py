@@ -12,7 +12,7 @@ Args:
 Command: 
     python3 collectAllMicroserviceLogs.py <namesapce> <list-of-microservices> <timeout> <fetchInterval>
 Ex: 
-    python3 collectAllMicroserviceLogs.py scpsvc worker,cache,notification 100 10
+    python3 collectAllMicroserviceLogs.py mynamespace ms1,ms2,ms3 100 10
 '''
 if __name__ == "__main__":
     namespace = str(sys.argv[1])
